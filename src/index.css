@@ -249,3 +249,42 @@ body {
 .skill-group .tech-tag {
   background: #1e293b;
 }
+
+/* Contact */
+.contact {
+  padding: 80px 8% 100px;
+  display: flex;
+  justify-content: center;
+  scroll-margin-top: 70px;
+}
+
+.contact-card {
+  width: 100%;
+  max-width: 720px;
+  background: #1e293b;
+  border: 1px solid #334155;
+  border-radius: 16px;
+  padding: 48px 32px;
+  text-align: center;
+}
+
+.contact-card .about-text {
+  margin-bottom: 28px;
+}
+
+.contact-links {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-top: 28px;
+}
+
+.contact-links a {
+  color: #38bdf8;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.contact-links a:hover {
+  text-decoration: underline;
+}
