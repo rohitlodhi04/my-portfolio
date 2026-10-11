@@ -3,7 +3,7 @@ export default function Hero() {
     <section id="home" className="hero">
       <div className="hero-text">
         <p className="hero-greeting">Hi, I'm</p>
-        <h1>Your Name</h1>
+        <h1>Rohit Rajput</h1>
         <p className="hero-intro">
           Final-year BCA student and aspiring full-stack developer.
           I build web apps with React and Django.
