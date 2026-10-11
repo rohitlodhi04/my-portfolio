@@ -181,3 +181,71 @@ body {
 .project-links a:hover {
   text-decoration: underline;
 }
+
+/* About */
+.about {
+  padding: 80px 8%;
+  display: flex;
+  justify-content: center;
+  scroll-margin-top: 70px;
+}
+
+.about-card {
+  width: 100%;
+  max-width: 720px;
+  background: #1e293b;
+  border: 1px solid #334155;
+  border-radius: 16px;
+  padding: 40px 32px;
+  text-align: center;
+}
+
+.about-avatar {
+  width: 72px;
+  height: 72px;
+  margin: 0 auto 16px;
+  border-radius: 50%;
+  background: #38bdf8;
+  color: #0f172a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.about-title {
+  font-size: 2rem;
+  margin-bottom: 16px;
+}
+
+.about-text {
+  color: #94a3b8;
+  line-height: 1.8;
+  margin-bottom: 32px;
+}
+
+.skill-groups {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 20px;
+  text-align: left;
+}
+
+.skill-group {
+  background: #0f172a;
+  border-radius: 12px;
+  padding: 16px;
+}
+
+.skill-group h3 {
+  font-size: 0.85rem;
+  color: #94a3b8;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 12px;
+}
+
+.skill-group .tech-tag {
+  background: #1e293b;
+}

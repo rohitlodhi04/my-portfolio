@@ -5,8 +5,8 @@ export default function Hero() {
         <p className="hero-greeting">Hi, I'm</p>
         <h1>Rohit Rajput</h1>
         <p className="hero-intro">
-          Final-year BCA student and aspiring full-stack developer.
-          I build web apps with React and Django.
+          <b>I turn ideas into digital experiences.</b><br />
+          Focused on thoughtful design, clean code, and building things that matter.
         </p>
         <div className="hero-buttons">
           <a href="#work" className="btn btn-primary">View Work</a>

@@ -1,6 +1,7 @@
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Projects from "./components/Projects";
+import About from "./components/About";
 import "./index.css";
 
 export default function App() {
@@ -9,6 +10,7 @@ export default function App() {
       <Navbar />
       <Hero />
       <Projects />
+      <About/>
     </>
   );
 }
